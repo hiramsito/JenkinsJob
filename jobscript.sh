@@ -25,5 +25,5 @@ else
     fi
 fi
 echo "Registrando venta..."
-sleep 8
+sleep 3
 echo "Gracias por tu compra!"
