@@ -1,4 +1,4 @@
-job('JobClase Parametrizado'){
+job('JobClase Parametrizado2'){
   description('JobClase ejemplo de tiendita')
   scm {
     git('https://github.com/hiramsito/JenkinsJob.git', 'main'){ node ->
