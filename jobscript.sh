@@ -3,22 +3,22 @@ echo "Bienvenido a los Abarrotes Doña Lupe, $nombre el producto que elegiste es
 sleep 2
 if [ "$producto" = "Soda 600ml \$16" ]
 then
-    echo "La cantidad a pagar es soda:"
+    echo "La cantidad a pagar es:"
     echo "\$"$(expr $cantidad * 16)
 else
 	if [ "$producto" = "Doritos Nachos \$12" ]
     then
-    	echo "La cantidad a pagar es nacho:"
+    	echo "La cantidad a pagar es:"
     	echo "\$"$(expr $cantidad * 12)
     else
     	if [ "$producto" = "Agua 1L \$10" ]
     	then
-    		echo "La cantidad a pagar es agua:"
+    		echo "La cantidad a pagar es:"
     		echo "\$"$(expr $cantidad * 10)
     	else
         	if [ "$producto" = "Sincronizada \$20" ]
     		then
-    			echo "La cantidad a pagar es sincronizada:"
+    			echo "La cantidad a pagar es:"
     			echo "\$"$(expr $cantidad * 20)
             fi
     	fi
