@@ -4,7 +4,8 @@ sleep 2
 if [ "$producto" = "Soda 600ml \$16" ]
 then
     echo "La cantidad a pagar es:"
-    echo "\$" $(expr $cantidad*16)
+    let multiplicacion=$cantidad*16
+    echo "\$" $multiplicacion
 else
 	if [ "$producto" = "Doritos Nachos \$12" ]
     then
