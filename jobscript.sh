@@ -10,17 +10,20 @@ else
 	if [ "$producto" = "Doritos Nachos \$12" ]
     then
     	echo "La cantidad a pagar es:"
-    	echo "\$" $(expr $cantidad * 12)
+    	let multiplicacion=$cantidad*12
+        echo "\$" $multiplicacion
     else
     	if [ "$producto" = "Agua 1L \$10" ]
     	then
     		echo "La cantidad a pagar es:"
-    		echo "\$" $(expr $cantidad * 10)
+    		let multiplicacion=$cantidad*10
+                echo "\$" $multiplicacion
     	else
         	if [ "$producto" = "Sincronizada \$20" ]
     		then
     			echo "La cantidad a pagar es:"
-    			echo "\$" $(expr $cantidad * 20)
+    			let multiplicacion=$cantidad*20
+    			echo "\$" $multiplicacion
             fi
     	fi
     fi
