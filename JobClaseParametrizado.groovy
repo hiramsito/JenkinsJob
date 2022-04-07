@@ -20,7 +20,7 @@ job('JobClase Parametrizado2'){
   }
   publishers{
     mailer('bariosfp48@gmail.com', true, true)
-    mailer('jenkinstabanico1@gmail.com', true,true)
+    mailer('bsgkoke456@gmail.com', true,true)
     slackNotifier{
       notifyAborted(true)
       notifyEveryFailure(true)
