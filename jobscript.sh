@@ -1,6 +1,8 @@
 #!/bin/bash
 echo "Bienvenido a los Abarrotes Doña Lupe, $nombre el producto que elegiste es $producto y compraras la cantidad de $cantidad"
 sleep 2
+if []
+fi
 if [ "$producto" = "Soda 600ml \$16" ]
 then
     echo "La cantidad a pagar es:"
