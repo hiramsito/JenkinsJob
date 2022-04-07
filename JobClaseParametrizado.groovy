@@ -19,7 +19,7 @@ job('JobClase Parametrizado2'){
     shell("bash jobscript.sh")
   }
   publishers{
-    mailer('jenkinstabanico1@gmail.com', true, true)
+    mailer('bariosfp48@gmail.com', true, true)
     slackNotifier{
       notifyAborted(true)
       notifyEveryFailure(true)
